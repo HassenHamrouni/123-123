@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <title>Responsive Navbar | CodingNepal</title> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+ <!--HEADER-->
+ <header class="header">
+     <div class="container">
+         <div class="row v-center">
+             <div class="header-item item-left">
+                 <div class="logo"><a href="#">LOGO<span>.</span></a></div>
+             </div>
+             <div class="header-item item-center">
+                 <nav class="menu">
+                     <ul class="menu-main">
+                         <li>
+                             <a href="#">Pricing</a>
+                         </li>
+                         <li class="menu-item-has-children">
+                             <a href="#">Shop <i class="fas fa-angle-down"></i></a>
+                             <div class="sub-menu mega-menu mega-menu-column-4">
+                                 <div class="list-item text-center">
+                                     <a href="#">
+                                         <img src="https://www.roundtripshop.com/15899-thickbox_default/skfk-anix-orange-dress.jpg" alt="">
+                                         <h2 class="title">Hommes</h2>
+                                     </a>
+                                 </div>
+                                 <div class="list-item text-center">
+                                     <a href="#">
+                                         <img src="https://www.skfk-ethical-fashion.com/cdnassets/images/products/s20/dress-recycled-cotton-aizane-skfk-wdr00926-g5-ofm.jpg" alt="">
+                                         <h2 class="title">Femmes</h2>
+                                     </a>
+                                 </div>
+                                 <div class="list-item text-center">
+                                     <a href="#">
+                                         <img src="https://www.skfk-ethical-fashion.com/cdnassets/images/products/f19/sweater-organic-cotton-iradi-skfk-wsw00397-b7-ofm.jpg" alt="">
+                                         <h2 class="title">Enfants</h2>
+                                     </a>
+                                 </div>
+                                 <div class="list-item text-center">
+                                     <a href="#">
+                                         <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2020%2F04%2F29%2Fhmgoepprod-7.jpeg" alt="">
+                                         <h2 class="title">Accessoires</h2>
+                                     </a>
+                                 </div>
+                             </div>
+                         </li>
+                         <li class="menu-item-has-children">
+                             <a href="#">Men <i class="fas fa-angle-down"></i></a>
+                             <div class="sub-menu mega-menu mega-menu-column-4">
+                                 <div class="list-item">
+                                     <h2 class="title">Vétements Hommes</h2>
+                                     <ul>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                     </ul>
+                                     <h2 class="title">Parfums Hommes</h2>
+                                     <ul>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                         <li><a href="#">Product here</a></li>
+                                     </ul>
+                                 </div>
+                                 <div class="list-item">
+                                     <h2 class="title">Vétements Femmes</h2>
+                                     <ul>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                    </ul>
+                                    <h2 class="title">Parfums Femmes</h2>
+                                     <ul>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                    </ul>
+                                 </div>
+                                 <div class="list-item">
+                                     <h2 class="title">Vétements Enfants</h2>
+                                     <ul>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                    </ul>
+                                    <h2 class="title">Parfums Enfants</h2>
+                                     <ul>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                        <li><a href="#">Product here</a></li>
+                                    </ul>
+                                 </div>
+                                 <div class="list-item">
+                                     <img src="https://www.skfk-ethical-fashion.com/cdnassets/images/products/S19/dress-lyocell-baia-skfk-wdr00783-g8-ofm.jpg" alt="">
+                                     <a href="#" class="discover">Discover</a>
+                                 </div>
+                             </div>
+                         </li>
+                         <li>
+                             <a href="#">Women</a>
+                         </li>
+                         <li>
+                             <a href="#">Coupons</a>
+                         </li>
+                         <li>
+                             <a href="#">Gift Cards</a>
+                         </li>
+                     </ul>
+                 </nav>
+             </div>
+             <div class="header-item item-right">
+                 <a href="#" class="search">
+                     <i class="fas fa-search"></i>
+                 </a>
+                 <a href="#" class="user">
+                     <i class="fas fa-user"></i>
+                 </a>
+                 <a href="#"><i class="fas fa-shopping-bag"></i></a>
+             </div>
+         </div>
+     </div>
+ </header> 
+ <!--END OF HEADER--> 
+ 
+ <!--SLIDER-->
+ <div class="home">
+     <div class="slider">
+         <div class="slide active" style="background-image: url('https://img.freepik.com/free-psd/sale-banner-template_24972-824.jpg?size=626&ext=jpg');"></div>
+         <div class="slide" style="background-image: url('https://img.freepik.com/free-psd/sale-banner-template_24972-824.jpg?size=626&ext=jpg');"></div>
+         <div class="slide" style="background-image: url('https://i.pinimg.com/originals/e5/18/74/e51874ecd392129fa1f758e291da3a82.jpg');"></div>
+         <div class="slide" style="background-image: url('https://i.pinimg.com/originals/ed/e0/15/ede015cfd6eacb5f460eb9c2ebf8632b.jpg');"></div>
+     </div>
+     <div class="controls">
+         <div class="prev"><i class="fas fa-long-arrow-alt-left"></i></div>
+         <div class="next"><i class="fas fa-long-arrow-alt-right"></i></div>
+     </div>
+     <div class="indicator"></div>
+ </div>
+
+ <!--END OF SLIDER-->
+
+ <!--fEATURED-->
+ <section class="features">
+     <div class="features-container">
+         <div class="item">
+             <div class="product-box">
+                 <img src="https://trkmedia.ollcdn.net/uploads/public/uploads/public/novosti/5cc043351a95d_90651_dnm_1.jpeg" alt="">
+                 <a href="#" class="view"><i class="fas fa-eye"></i></a>
+             </div>
+             <span>Hommes</span>
+         </div>
+
+         <div class="item">
+            <div class="product-box">
+                <img src="https://confettissimo.com/wp-content/uploads/2020/03/d0bcd0bed0b4d0b0-d0b4d0bbd18f-d0bfd0bed0bbd0bdd18bd185-d0b6d0b5d0bdd189d0b8d0bd-d0b2d0b5d181d0bdd0b0-2020_5e721fa88a271.jpeg" alt="">
+                <a href="#" class="view"><i class="fas fa-eye"></i></a>
+            </div>
+            <span>Femmes</span>
+        </div>
+
+        <div class="item">
+            <div class="product-box">
+                <img src="https://www.sinsay.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/Y/D/YD426-06J-001.jpg" alt="">
+                <a href="#" class="view"><i class="fas fa-eye"></i></a>
+            </div>
+            <span>Enfants</span>
+        </div>
+
+        <div class="item">
+            <div class="product-box">
+                <img src="https://i.pinimg.com/564x/74/e5/34/74e534e9c39ddcb0e1fc138b6e252bcd.jpg" alt="">
+                <a href="#" class="view"><i class="fas fa-eye"></i></a>
+            </div>
+            <span>Montres</span>
+        </div>
+
+        <div class="item">
+            <div class="product-box">
+                <img src="https://i.pinimg.com/originals/63/57/60/635760fb1a4a84c1d53764d956066da6.jpg" alt="">
+                <a href="#" class="view"><i class="fas fa-eye"></i></a>
+            </div>
+            <span>Accessoires</span>
+        </div>
+
+        <div class="item">
+            <div class="product-box">
+                <img src="https://i.pinimg.com/originals/4d/86/55/4d86557ad6bb93e2a142af211c574d61.jpg" alt="">
+                <a href="#" class="view"><i class="fas fa-eye"></i></a>
+            </div>
+            <span>Hardwares</span>
+        </div>
+
+        <div class="item">
+            <div class="product-box">
+                <img src="https://intertop.ua/load/7480/MAIN.png" alt="">
+                <a href="#" class="view"><i class="fas fa-eye"></i></a>
+            </div>
+            <span>Hardwares</span>
+        </div>
+
+        
+
+     </div>
+ </section>
+ <!--fEATURED-->
+
+<!--CATGS-->
+<section class="arrivals">
+    <div class="arrivals-heading">
+        <strong>Pour Lui</strong>
+    </div>
+    <div class="arrival-container">
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://www.transparentpng.com/thumb/adidas-shoes/ZeEY8q-black-adidas-sneakers-brand.png" alt="black adidas sneakers brand @transparentpng.com" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+                <span class="p-price first">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://www.transparentpng.com/thumb/adidas-shoes/bcKGE0-adidas-climacool-golf-shoes-adidas.png" alt="adidas climacool golf shoes adidas @transparentpng.com" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://www.transparentpng.com/thumb/adidas-shoes/f7aY8k-nmd-adidas-trainers-transparent-background.png" alt="nmd adidas trainers transparent background @transparentpng.com" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://www.transparentpng.com/thumb/adidas-shoes/rF0to6-adidas-shoes-blue-black-colors.png" alt="adidas shoes blue, black colors @transparentpng.com" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://www.transparentpng.com/thumb/nike/jP5P8p-download-nike-png.png" alt="download nike png @transparentpng.com" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://freepngimg.com/thumb/adidas_shoes/6-2-adidas-shoes-png-image.png" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://freepngimg.com/thumb/adidas_shoes/58146-pw-adidas-tr-mens-nmd-race-sneakers.png" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://banner2.cleanpng.com/20180525/xvs/kisspng-sneakers-adidas-originals-shoe-asics-tenis-shoes-5b087a213c9284.7163023615272822092481.jpg" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://banner2.cleanpng.com/20180925/www/kisspng-adidas-nmd-r1-pk-mens-packers-sports-shoes-nike-adidas-nmdr1-pk-primeknit-x-packers-unisex-clear-5ba9f4a062c7c9.1119278215378648644046.jpg" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+        <div class="prod-box">
+            <div class="product-img">
+                <img src="https://banner2.cleanpng.com/20180914/uul/kisspng-adidas-yeezy-boost-7-wave-runner-b75571-sports-5b9b8cb3a65c52.2180965915369207556814.jpg" alt="">
+                <a href="#" class="add-cart">Ajouter au Panier</a>
+            </div>
+            <div class="product-details">
+                <li class="p-name">Product name</li>
+                <span class="p-price">$360.00</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--END OF CATGS-->
+
+<!--SALES-->
+<section class="sales">
+    <div class="sale-box">
+        <a href="#" class="shopp">Shop</a>
+        <img src="https://www.d2time.co.uk/Files/127316/Img/03/fossil-banner.jpg" alt="">
+    </div>
+
+    <div class="sale-box">
+        <a href="#" class="shopp">Shop</a>
+        <img src="https://cdn.shopify.com/s/files/1/0248/7892/t/52/assets/hugo-boss-watches-ladies_680x.jpg?v=7345716751608767723" alt="">
+    </div>
+
+    <div class="sale-box">
+        <a href="#" class="shopp">Shop</a>
+        <img src="https://i2.wp.com/www.nylon.com.sg/wp-content/uploads/2020/09/casio-GMW-B5000TCF-nylon-banner.jpg?fit=2000%2C773&ssl=1" alt="">
+    </div>
+
+</section>
+<!--END OF SALES-->
+
+<!--SERVICES-->
+<section class="services">
+    <div class="service-box">
+        <i class="fas fa-shipping-fast"></i>
+        <h1>Free Shipping</h1>
+        <p>We ship Fast & Full Services</p>
+    </div>
+
+    <div class="service-box">
+        <i class="fas fa-user-circle"></i>
+        <h1>Detailed Produtcs</h1>
+        <p>We ship Fast & Full Services</p>
+    </div>
+
+    <div class="service-box">
+        <i class="fas fa-check-square"></i>
+        <h1>Free Shipping</h1>
+        <p>We ship Fast & Full Services</p>
+    </div>
+
+    <div class="service-box">
+        <i class="fas fa-id-card"></i>
+        <h1>Full Service</h1>
+        <p>We ship Fast & Full Services</p>
+    </div>
+
+    <div class="service-box">
+        <i class="fas fa-power-off"></i>
+        <h1>24/ 7 Customer</h1>
+        <p>We ship Fast & Full Services</p>
+    </div>
+</section>
+<!--END OF SERVICES-->
+
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <h2>Get Help?</h2>
+                <ul>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product here</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="#">Product here</a></li>
+                    <li><a href="#">Product Second here</a></li>
+                    <li><a href="#">Product Third here</a></li>
+                    <li><a href="#">Product Fourth here</a></li>
+                    <li><a href="#">Product Fifth here</a></li>
+                    <li><a href="#">Product Sixth here</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <h2>Get In Touch</h2>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fas fa-share-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+
+ <script>
+     const slides = document.querySelector(".slider").children;
+     const prev = document.querySelector(".prev");
+     const next = document.querySelector(".next");
+     const indicator = document.querySelector(".indicator");
+
+    let index=0;
+    prev.addEventListener("click", function(){
+        prevSlide();
+        updateCircleIndicator();
+        resetTimer();
+    })
+
+    next.addEventListener("click", function(){
+        nextSlide();
+        updateCircleIndicator();
+        resetTimer();
+    })
+
+    function circleIndicator(){
+        for (let i=0; i< slides.length; i++){
+            const div = document.createElement("div");
+            div.setAttribute("onclick", "indicateSlide(this)")
+            div.id=i;
+            if(i==0){
+                div.className="active";
+            }
+            indicator.appendChild(div);
+        }
+    }
+    circleIndicator();
+
+    function indicateSlide(element){
+        index=element.id;
+        changeSlide();
+        updateCircleIndicator();
+        resetTimer();
+    }
+
+    function updateCircleIndicator(){
+        for (let i=0; i< indicator.children.length; i++){
+            indicator.children[i].classList.remove("active")
+        }
+        indicator.children[index].classList.add("active")
+    }
+
+    function prevSlide(){
+        if(index==0){
+            index=slides.length-1; 
+        }
+        else{
+            index--;
+        }
+        changeSlide();
+    }
+
+    function nextSlide(){
+        if(index==slides.length-1){
+            index=0;
+        }
+        else{
+            index++;
+        }
+        changeSlide();
+    }
+
+    function changeSlide(){
+        for (let i=0; i < slides.length; i++){
+            slides[i].classList.remove("active");
+        }
+
+        slides[index].classList.add("active");
+    }
+
+    function autoPlay(){
+        nextSlide();
+        updateCircleIndicator();
+    }
+
+    let timer = setInterval(autoPlay, 4000);
+
+    function resetTimer(){
+        clearInerval(timer);
+
+        timer=setInterval(autoPlay, 4000);
+    }
+
+ </script>
+
+  </body>
+</html>
